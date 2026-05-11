@@ -1,6 +1,6 @@
 services:
     web:
-        image: alguien/friendlyhello
+        image: cdmendez25/friendlyhello:v1
         labels:
             - "traefik.enable=true"
             - "traefik.http.routers.web.rule=Host(`localhost`)"
